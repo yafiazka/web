@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Yafi Azka -- Frontend Developer -- yafiazka19@gmail.com
+
+# THANKS
+
+    To everyone who has supported my journey as a developer
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, JavaScript, TypeScript
+    React.js, Next.js 14
+    Tailwind CSS
+    Contentlayer
+    Vercel
+    Git

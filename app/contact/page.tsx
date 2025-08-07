@@ -1,8 +1,18 @@
-"use client";
 import { Github, Mail, MessageCircle } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact - Yafi Azka",
+  description: "Get in touch with Yafi Azka for web development projects, collaborations, or freelance opportunities. Available via email, Telegram, and GitHub.",
+  keywords: "contact Yafi Azka, yafiazka contact, hire frontend developer, web development services, React developer contact",
+  openGraph: {
+    title: "Contact - Yafi Azka",
+    description: "Get in touch with Yafi Azka for web development projects and collaborations.",
+  },
+};
 
 const socials = [
 	{
