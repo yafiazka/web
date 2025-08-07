@@ -9,12 +9,12 @@ export async function GET() {
     theme_color: "#000000",
     icons: [
       {
-        src: "/favicon.png",
+        src: "/logo.jpg",
         sizes: "192x192",
         type: "image/png"
       },
       {
-        src: "/favicon.png",
+        src: "/logo.jpg",
         sizes: "512x512",
         type: "image/png"
       }
