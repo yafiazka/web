@@ -9,16 +9,16 @@ export const metadata: Metadata = {
     default: "yafiazka.com",
     template: "%s | yafiazka.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "a quick-learning and passionate front-end developer with expertise in crafting user-friendly interfaces for web and mobile applications.",
   openGraph: {
     title: "yafiazka.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
+      "a quick-learning and passionate front-end developer with expertise in crafting user-friendly interfaces for web and mobile applications.",
     url: "https://yafiazka.com",
     siteName: "yafiazka.com",
     images: [
       {
-        url: "https://yafiazka.com/og.png",
+        url: "https://yafiazka.com/logo.png",
         width: 1920,
         height: 1080,
       },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/logo.png",
   },
 };
 const inter = Inter({
