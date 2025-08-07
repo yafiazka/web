@@ -1,27 +1,27 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Mail, MessageCircle } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
-		label: "Twitter",
-		handle: "@chronark_",
+		icon: <MessageCircle size={20} />,
+		href: "https://t.me/yafiazka19",
+		label: "Telegram",
+		handle: "@yafiazka19",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
+		href: "mailto:yafiazka19@gmail.com",
 		label: "Email",
-		handle: "dev@chronark.com",
+		handle: "yafiazka19@gmail.com",
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
+		href: "https://github.com/yafiazka19",
 		label: "Github",
-		handle: "chronark",
+		handle: "yafiazka19",
 	},
 ];
 
@@ -36,7 +36,7 @@ export default function Example() {
 							<Link
 								href={s.href}
 								target="_blank"
-								className="p-4 relative flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-24  lg:pb-48  md:p-16"
+								className="p-4 relative flex flex-col items-center gap-4 duration-700 grou	p md:gap-8 md:py-24  lg:pb-48  md:p-16"
 							>
 								<span
 									className="absolute w-px h-2/3 bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent"

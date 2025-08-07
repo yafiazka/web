@@ -33,8 +33,11 @@ export const Project = defineDocumentType(() => ({
 			type: "string",
 			required: true,
 		},
-		date: {
-			type: "date",
+		dateFrom: {
+			type: "string",
+		},
+		dateTo: {
+			type: "string",
 		},
 		url: {
 			type: "string",
@@ -42,6 +45,10 @@ export const Project = defineDocumentType(() => ({
 		repository: {
 			type: "string",
 		},
+		category: {
+			type: "enum",
+			options: ["professional", "non-professional"],
+		}
 	},
 	computedFields,
 }));
