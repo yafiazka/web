@@ -32,7 +32,7 @@ export default function AboutMe() {
             <p><strong>Also known as:</strong> yafiazka</p>
             <p><strong>Location:</strong> Banda Aceh, Indonesia</p>
             <p><strong>Email:</strong> yafiazka19@gmail.com</p>
-            <p><strong>Phone:</strong> +62 851-5600-9530</p>
+            {/* <p><strong>Phone:</strong> +62 851-5600-9530</p> */}
             <p><strong>GitHub:</strong> <a href="https://github.com/YafiAzka" target="_blank" className="text-blue-400 underline">YafiAzka</a></p>
             <p><strong>Telegram:</strong> @yafiazka19</p>
             <p><strong>Portfolio:</strong> <a href="https://yafiazka.my.id" target="_blank" className="text-blue-400 underline">yafiazka.my.id</a></p>
@@ -43,9 +43,9 @@ export default function AboutMe() {
             <p>
               I'm <strong>Yafi Azka</strong>, a passionate and quick-learning fullstack developer based in Banda Aceh, Indonesia, with a strong enthusiasm for frontend development. With expertise in modern web and mobile technologies, I specialize in creating user-friendly interfaces that deliver exceptional user experiences while maintaining solid backend capabilities. I combine technical expertise with creative problem-solving, focusing on building dynamic, responsive applications using React, Next.js, Flutter, Laravel, and modern web standards.
             </p>
-            <p>
+            {/* <p>
               Currently pursuing a Bachelor's degree in Computer Science at Universitas Bina Bangsa Getsempena, I have established myself as a skilled fullstack developer in the Indonesian tech scene with comprehensive experience in both frontend and backend development, though my passion particularly lies in crafting beautiful, intuitive user interfaces.
-            </p>
+            </p> */}
           </div>
 
           <div className="lg:col-span-2 space-y-4">
