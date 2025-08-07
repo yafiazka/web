@@ -6,6 +6,17 @@ import { Card } from "../components/card";
 import { Article } from "./article";
 import { Redis } from "@upstash/redis";
 import { Eye } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects - Yafi Azka Portfolio",
+  description: "Explore Yafi Azka's portfolio of web and mobile development projects. Featuring React, Next.js, Flutter applications and professional work experience.",
+  keywords: "Yafi Azka projects, yafiazka portfolio, React projects, Next.js projects, Flutter apps, web development portfolio, mobile app development",
+  openGraph: {
+    title: "Projects - Yafi Azka Portfolio",
+    description: "Explore Yafi Azka's portfolio of web and mobile development projects featuring modern technologies.",
+  },
+};
 
 const redis = Redis.fromEnv();
 

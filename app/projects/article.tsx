@@ -44,7 +44,7 @@ export const Article: React.FC<Props> = ({ project, views }) => {
                         )}
                       </time>
                     ) : (
-                      <span>Soon</span>
+                      <span></span>
                     )}
 					</span>
 					<span className="text-zinc-500 text-xs  flex items-center gap-1">

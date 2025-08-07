@@ -1,5 +1,15 @@
-"use client";
 import { Navigation } from "../components/nav";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Me - Yafi Azka",
+  description: "Learn more about Yafi Azka, a passionate fullstack developer from Banda Aceh, Indonesia with enthusiasm for frontend development. Experienced in React, Next.js, Flutter, Laravel, and modern web technologies.",
+  keywords: "Yafi Azka about, yafiazka biography, fullstack developer Indonesia, React developer Banda Aceh, Flutter developer, web developer profile, frontend enthusiast",
+  openGraph: {
+    title: "About Me - Yafi Azka",
+    description: "Learn more about Yafi Azka, a passionate fullstack developer from Indonesia with enthusiasm for frontend development and expertise in modern web technologies.",
+  },
+};
 
 export default function AboutMe() {
   return (
@@ -19,30 +29,65 @@ export default function AboutMe() {
         <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 text-zinc-400">
           <div className="space-y-4">
             <h3 className="text-xl font-semibold text-zinc-100">Muhammad Yafi Azka</h3>
+            <p><strong>Also known as:</strong> yafiazka</p>
             <p><strong>Location:</strong> Banda Aceh, Indonesia</p>
             <p><strong>Email:</strong> yafiazka19@gmail.com</p>
             <p><strong>Phone:</strong> +62 851-5600-9530</p>
             <p><strong>GitHub:</strong> <a href="https://github.com/YafiAzka" target="_blank" className="text-blue-400 underline">YafiAzka</a></p>
+            <p><strong>Telegram:</strong> @yafiazka19</p>
+            <p><strong>Portfolio:</strong> <a href="https://yafiazka.my.id" target="_blank" className="text-blue-400 underline">yafiazka.my.id</a></p>
           </div>
 
           <div className="space-y-4">
             <h3 className="text-xl font-semibold text-zinc-100">Professional Summary</h3>
             <p>
-              I'm Yafi Azka, a fast learner and passionate full-stack developer with strong skills in developing user-friendly and responsive web and mobile applications. Proficient in HTML, CSS, JavaScript, PHP, Laravel, and Flutter, I specialize in combining clean design with functional interfaces. Experienced in working with Git/GitLab and applying UI/UX principles, I stay up-to-date with the latest trends and best practices in software development.
+              I'm <strong>Yafi Azka</strong>, a passionate and quick-learning fullstack developer based in Banda Aceh, Indonesia, with a strong enthusiasm for frontend development. With expertise in modern web and mobile technologies, I specialize in creating user-friendly interfaces that deliver exceptional user experiences while maintaining solid backend capabilities. I combine technical expertise with creative problem-solving, focusing on building dynamic, responsive applications using React, Next.js, Flutter, Laravel, and modern web standards.
+            </p>
+            <p>
+              Currently pursuing a Bachelor's degree in Computer Science at Universitas Bina Bangsa Getsempena, I have established myself as a skilled fullstack developer in the Indonesian tech scene with comprehensive experience in both frontend and backend development, though my passion particularly lies in crafting beautiful, intuitive user interfaces.
             </p>
           </div>
 
           <div className="lg:col-span-2 space-y-4">
-            <h3 className="text-xl font-semibold text-zinc-100">Skills</h3>
-            <p>
-              <strong>Technical:</strong> Flutter, Laravel, HTML, CSS, JavaScript, PHP, Git/GitLab, Figma
+            <h3 className="text-xl font-semibold text-zinc-100">Technical Expertise</h3>
+            <p className="text-sm text-zinc-300 mb-4">
+              <strong>Fullstack Developer</strong> with special enthusiasm and passion for <strong>Frontend Development</strong>
             </p>
-            <p>
-              <strong>Soft Skills:</strong> Problem-solving, interpersonal communication, technical presentation
-            </p>
-            <p>
-              <strong>Other:</strong> Social media marketing, Canva design, English proficiency
-            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div>
+                <h4 className="font-semibold text-zinc-200 mb-2">Frontend (My Passion)</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• React.js - Dynamic user interfaces</li>
+                  <li>• Next.js - Server-side rendering</li>
+                  <li>• TypeScript - Type-safe development</li>
+                  <li>• Tailwind CSS - Modern styling</li>
+                  <li>• HTML, CSS, JavaScript</li>
+                  <li>• UI/UX Implementation</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold text-zinc-200 mb-2">Backend & Mobile</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• Laravel - PHP framework</li>
+                  <li>• PHP - Backend development</li>
+                  <li>• Flutter - Cross-platform apps</li>
+                  <li>• Dart - Flutter development</li>
+                  <li>• API Development & Integration</li>
+                  <li>• Database Management</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold text-zinc-200 mb-2">Tools & Skills</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• Git/GitLab - Version control</li>
+                  <li>• Figma - UI/UX design</li>
+                  <li>• Problem-solving</li>
+                  <li>• Technical presentation</li>
+                  <li>• English proficiency</li>
+                  <li>• Responsive Design</li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div className="lg:col-span-2 space-y-4">
@@ -55,20 +100,41 @@ export default function AboutMe() {
             </p>
           </div>
 
-          <div className="lg:col-span-2 space-y-4">
+          <div className="lg:col-span-2 space-y-6">
             <h3 className="text-xl font-semibold text-zinc-100">Work Experience</h3>
-            <p>
-              <strong>PT. Digital Kreasi Muslim</strong> (Feb 2024 – Present)  
-              Developed an EMR system integrated with BSrE and BPJS, simplifying how doctors manage patient data.
-            </p>
-            <p>
-              <strong>PT. Leu Ritel Indonesia</strong> (Sep 2022 – Jan 2024)  
-              Built a cross-platform e-commerce app using Flutter and Laravel for both modern and traditional markets, and developed a data processing system for internal use.
-            </p>
-            <p>
-              <strong>Kooling ID</strong> (2020 – 2021)  
-              Volunteered as a digital marketer, managing social media accounts and supporting digital marketing strategies and campaigns.
-            </p>
+            
+            <div className="space-y-4">
+              <div>
+                <h4 className="font-semibold text-zinc-200">Fullstack Developer</h4>
+                <p className="text-sm text-zinc-300">PT. Digital Kreasi Muslim • Feb 2024 – Present</p>
+                <p className="mt-2">
+                  Developed a comprehensive <strong>Paperless Hospital EMR System</strong> that revolutionizes how hospitals manage patient data. Working across the full stack with special enthusiasm for frontend development. The system features:
+                </p>
+                <ul className="mt-2 space-y-1 text-sm ml-4">
+                  <li>• Integration with BSrE (Balai Sertifikasi Elektronik) for digital signatures</li>
+                  <li>• BPJS integration for insurance claims processing</li>
+                  <li>• Real-time data access for healthcare providers</li>
+                  <li>• Streamlined patient data management workflows</li>
+                  <li>• Beautiful, intuitive user interfaces with focus on user experience</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 className="font-semibold text-zinc-200">Full-stack Developer</h4>
+                <p className="text-sm text-zinc-300">PT. Leu Ritel Indonesia • Sep 2022 – Jan 2024</p>
+                <p className="mt-2">
+                  Built the <strong>Leumart E-commerce Platform</strong>, a cross-platform application using Flutter and Laravel, serving both modern and traditional markets in Indonesia. Also developed internal data processing systems for business operations.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="font-semibold text-zinc-200">Digital Marketing Volunteer</h4>
+                <p className="text-sm text-zinc-300">Kooling ID • 2020 – 2021</p>
+                <p className="mt-2">
+                  Managed social media accounts and supported digital marketing strategies and campaigns, gaining valuable experience in digital marketing and content creation.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
