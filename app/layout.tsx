@@ -68,13 +68,6 @@ export const metadata: Metadata = {
     locale: "en-US",
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Yafi Azka - Frontend Developer",
-    description: "Passionate frontend developer specializing in React, Next.js, and Flutter development.",
-    images: ["https://yafiazka.my.id/og.png"],
-    creator: "@yafiazka19",
-  },
   robots: {
     index: true,
     follow: true,
