@@ -36,7 +36,7 @@ export default function AboutMe() {
             <h3 className="text-xl font-semibold text-zinc-100">Muhammad Yafi Azka</h3>
             <p><strong>Also known as:</strong> yafiazka</p>
             <p><strong>Location:</strong> Banda Aceh, Indonesia</p>
-            <p><strong>Email:</strong> yafiazka19@gmail.com</p>
+            <p><strong>Email:</strong> yafiazkawork@gmail.com</p>
             {/* <p><strong>Phone:</strong> +62 851-5600-9530</p> */}
             <p><strong>GitHub:</strong> <a href="https://github.com/YafiAzka" target="_blank" className="text-blue-400 underline">YafiAzka</a></p>
             <p><strong>Telegram:</strong> @yafiazka19</p>
@@ -66,6 +66,7 @@ export default function AboutMe() {
                   <li>• Next.js - Server-side rendering</li>
                   <li>• TypeScript - Type-safe development</li>
                   <li>• Tailwind CSS - Modern styling</li>
+                  <li>• Bootstrap - Responsive design</li>
                   <li>• HTML, CSS, JavaScript</li>
                   <li>• UI/UX Implementation</li>
                 </ul>
