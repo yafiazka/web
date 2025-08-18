@@ -60,7 +60,7 @@ export default function AboutMe() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div>
-                <h4 className="font-semibold text-zinc-200 mb-2">Frontend (My Passion)</h4>
+                <h4 className="font-semibold text-zinc-200 mb-2">Frontend</h4>
                 <ul className="space-y-1 text-sm">
                   <li>• React.js - Dynamic user interfaces</li>
                   <li>• Next.js - Server-side rendering</li>
@@ -90,7 +90,6 @@ export default function AboutMe() {
                   <li>• Problem-solving</li>
                   <li>• Technical presentation</li>
                   <li>• English proficiency</li>
-                  <li>• Responsive Design</li>
                 </ul>
               </div>
             </div>
