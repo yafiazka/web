@@ -5,12 +5,12 @@ import { Card } from "../components/card";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact - Yafi Azka",
-  description: "Get in touch with Yafi Azka for web development projects, collaborations, or freelance opportunities. Available via email, Telegram, and GitHub.",
-  keywords: "contact Yafi Azka, yafiazka contact, hire frontend developer, web development services, React developer contact",
+  title: "Contact - Muhammad Yafi Azka",
+  description: "Get in touch with Muhammad Yafi Azka (Yafi Azka) for web development projects, collaborations, or freelance opportunities. Available via email, Telegram, and GitHub. Based in Banda Aceh, Indonesia. Specializing in React, Next.js, Flutter, and Laravel development.",
+  keywords: "contact Muhammad Yafi Azka, contact Yafi Azka, contact Azka, contact Yafi, yafiazka contact, Muhammad Yafi contact, hire fullstack developer, hire frontend developer, web development services, React developer contact, Next.js developer contact, Flutter developer contact, Laravel developer contact, Banda Aceh developer contact, Indonesia developer contact, freelance developer contact",
   openGraph: {
-    title: "Contact - Yafi Azka",
-    description: "Get in touch with Yafi Azka for web development projects and collaborations.",
+    title: "Contact - Muhammad Yafi Azka",
+    description: "Get in touch with Muhammad Yafi Azka (Yafi Azka) for web development projects and collaborations. Based in Banda Aceh, Indonesia.",
   },
 };
 

@@ -9,12 +9,12 @@ import { Eye } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Projects - Yafi Azka Portfolio",
-  description: "Explore Yafi Azka's portfolio of web and mobile development projects. Featuring React, Next.js, Flutter applications and professional work experience.",
-  keywords: "Yafi Azka projects, yafiazka portfolio, React projects, Next.js projects, Flutter apps, web development portfolio, mobile app development",
+  title: "Projects - Muhammad Yafi Azka Portfolio",
+  description: "Explore Muhammad Yafi Azka's (Yafi Azka) portfolio of web and mobile development projects. Featuring React, Next.js, Flutter applications, Laravel backends, and professional work experience at PT. Digital Kreasi Muslim. View certifications and personal projects from Banda Aceh, Indonesia.",
+  keywords: "Muhammad Yafi Azka projects, Yafi Azka projects, Azka projects, Yafi projects, yafiazka portfolio, Muhammad Yafi portfolio, React projects, Next.js projects, Flutter apps, Laravel projects, web development portfolio, mobile app development, PT Digital Kreasi Muslim projects, Banda Aceh developer portfolio, Indonesia developer projects, fullstack projects, frontend projects, backend projects, professional projects, certifications, Computer Science projects",
   openGraph: {
-    title: "Projects - Yafi Azka Portfolio",
-    description: "Explore Yafi Azka's portfolio of web and mobile development projects featuring modern technologies.",
+    title: "Projects - Muhammad Yafi Azka Portfolio",
+    description: "Explore Muhammad Yafi Azka's (Yafi Azka) portfolio of web and mobile development projects featuring modern technologies like React, Next.js, Flutter, and Laravel.",
   },
 };
 

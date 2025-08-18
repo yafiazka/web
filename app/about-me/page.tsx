@@ -2,12 +2,12 @@ import { Navigation } from "../components/nav";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Me - Yafi Azka",
-  description: "Learn more about Yafi Azka, a passionate fullstack developer from Banda Aceh, Indonesia with enthusiasm for frontend development. Experienced in React, Next.js, Flutter, Laravel, and modern web technologies.",
-  keywords: "Yafi Azka about, yafiazka biography, fullstack developer Indonesia, React developer Banda Aceh, Flutter developer, web developer profile, frontend enthusiast",
+  title: "About Me - Muhammad Yafi Azka",
+  description: "Learn more about Muhammad Yafi Azka (Yafi Azka), a passionate fullstack developer from Banda Aceh, Indonesia with enthusiasm for frontend development. Computer Science student at Universitas Bina Bangsa Getsempena. Experienced in React, Next.js, Flutter, Laravel, and modern web technologies. Currently working at PT. Digital Kreasi Muslim.",
+  keywords: "Muhammad Yafi Azka about, Yafi Azka about, Azka about, Yafi about, yafiazka biography, Muhammad Yafi biography, fullstack developer Indonesia, React developer Banda Aceh, Flutter developer, web developer profile, frontend enthusiast, Computer Science student, Universitas Bina Bangsa Getsempena, SMK Negeri 5 Telkom Banda Aceh, PT Digital Kreasi Muslim, Banda Aceh developer, Aceh developer, Indonesian programmer, software engineering graduate",
   openGraph: {
-    title: "About Me - Yafi Azka",
-    description: "Learn more about Yafi Azka, a passionate fullstack developer from Indonesia with enthusiasm for frontend development and expertise in modern web technologies.",
+    title: "About Me - Muhammad Yafi Azka",
+    description: "Learn more about Muhammad Yafi Azka (Yafi Azka), a passionate fullstack developer from Banda Aceh, Indonesia with enthusiasm for frontend development and expertise in modern web technologies.",
   },
 };
 
@@ -34,7 +34,7 @@ export default function AboutMe() {
         <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 text-zinc-400">
           <div className="space-y-4">
             <h3 className="text-xl font-semibold text-zinc-100">Muhammad Yafi Azka</h3>
-            <p><strong>Also known as:</strong> yafiazka</p>
+            <p><strong>Also known as:</strong> Azka</p>
             <p><strong>Location:</strong> Banda Aceh, Indonesia</p>
             <p><strong>Email:</strong> yafiazkawork@gmail.com</p>
             <p><strong>Phone:</strong> +62 851-5600-9530</p>
@@ -46,7 +46,7 @@ export default function AboutMe() {
           <div className="space-y-4">
             <h3 className="text-xl font-semibold text-zinc-100">Professional Summary</h3>
             <p>
-              I'm <strong>Yafi Azka</strong>, a passionate and quick-learning fullstack developer based in Banda Aceh, Indonesia, with a strong enthusiasm for frontend development. With expertise in modern web and mobile technologies, I specialize in creating user-friendly interfaces that deliver exceptional user experiences while maintaining solid backend capabilities. I combine technical expertise with creative problem-solving, focusing on building dynamic, responsive applications using React, Next.js, Flutter, Laravel, and modern web standards.
+              I'm <strong>Muhammad Yafi Azka</strong>, a passionate and quick-learning fullstack developer based in Banda Aceh, Indonesia, with a strong enthusiasm for frontend development. With expertise in modern web and mobile technologies, I specialize in creating user-friendly interfaces that deliver exceptional user experiences while maintaining solid backend capabilities. I combine technical expertise with creative problem-solving, focusing on building dynamic, responsive applications using React, Next.js, Flutter, Laravel, and modern web standards.
             </p>
             <p>
               I have established myself as a skilled fullstack developer in the Indonesian tech scene with comprehensive experience in both frontend and backend development, though my passion particularly lies in crafting beautiful, intuitive user interfaces.
