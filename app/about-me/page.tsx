@@ -90,6 +90,7 @@ export default function AboutMe() {
                   <li>• Problem-solving</li>
                   <li>• Technical presentation</li>
                   <li>• English proficiency</li>
+                  <li>• Cavna - Graphics design</li>
                 </ul>
               </div>
             </div>
